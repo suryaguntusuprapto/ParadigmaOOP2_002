@@ -11,3 +11,13 @@ class seseorang {
 
 	}
 };
+
+class joko : seseorang {
+public:
+	void pesan() {
+		cout << "Pesan dari joko" << endl;
+	}
+	void cetak() {
+		cout << "Tulisan joko" << endl;
+	}
+};
