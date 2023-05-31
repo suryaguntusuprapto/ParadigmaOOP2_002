@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6564c8d0-c9d7-43e8-8750-9fb0813eeb9f}</ProjectGuid>
-    <RootNamespace>ParadigmaOOP2</RootNamespace>
+    <ProjectGuid>{c5bd965b-e526-42d9-8cf5-cdd7195fda84}</ProjectGuid>
+    <RootNamespace>Polymorphism</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>SolveMultiWaris</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ParadigmaOOP2.cpp" />
+    <ClCompile Include="Polymorphism.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
